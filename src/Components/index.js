@@ -1,13 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 //components
 import Headers from './Header'
-import MyMenu from './Content/index'
+import MyDishes from './Content/index'
 
 //styles 
 import {WrapMenu} from './index.styles'
-
+//data
+import menu from '../data/menu'
 export default function MenuComponent() {
+    const [listDishes, setListDishes] = useState(menu)
     return (
         <WrapMenu>
             <Headers/>
@@ -17,7 +19,12 @@ export default function MenuComponent() {
                 <div>Lunch</div>
                 <div>Shakes</div>
             </div>
-            <MyMenu/>
+            <div className="list-dishes">
+                {listDishes.map((dish, index) => (
+                    <MyDishes key={index} dish={dish} />
+                ))}
+
+            </div>
         </WrapMenu>
     )
 }

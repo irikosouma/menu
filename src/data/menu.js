@@ -10,39 +10,75 @@ const menu = [
     },
     {
         id: "2",
-        title: 'Best Of Ireland In 14 Days Tour',
-        price: '3,895',
+        title: 'Godzilla Milkshake',
+        price: '15',
         image:
-            'https://dl.airtable.com/.attachments/6c24084000a3777064c5200a8c2ae931/04081a3e/ireland.jpeg',
+            'https://react-projects-5-menu.netlify.app/images/item-3.jpeg',
         text:
-            "Rick Steves' Best of Ireland tour kicks off with the best of Dublin, followed by Ireland's must-see historical sites, charming towns, music-filled pubs, and seaside getaways — including Kinsale, the Dingle Peninsula, the Cliffs of Moher, the Aran Islands, Galway, Connemara, Giant's Causeway, and the compelling city of Belfast. All along the way, Rick's guides will share their stories to draw you in to the Emerald Isle, and the friendliness of the people will surely steal your heart. Join us for the Best of Ireland in 14 Days!",
+            "ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.",
     },
     {
         id: "3",
-        title: 'Best Of Salzburg & Vienna In 8 Days Tour',
-        price: '2,695',
+        title: 'Egg Attack',
+        price: '15',
         image:
-            'https://dl.airtable.com/.attachments/27f6cbfe631e303f98b97e9dafacf25b/6bbe2a07/vienna.jpeg',
+            'https://react-projects-5-menu.netlify.app/images/item-5.jpeg',
         text:
-            "Let's go where classical music, towering castles, and the-hills-are-alive scenery welcome you to the gemütlichkeit of Bavaria and opulence of Austria's Golden Age. Your Rick Steves guide will bring this region's rich history and culture to life in festive Munich, Baroque Salzburg, sparkling Lake Hallstatt, monastic Melk, the blue Danube, and royal Vienna — with cozy villages and alpine vistas all along the way. Join us for the Best of Munich, Salzburg & Vienna in 8 Days!",
+            "Salzburg & Vienna in 8 Days!",
     },
     {
         id: "4",
-        title: 'Best Of Rome In 7 Days Tour',
-        price: '2,095',
+        title: 'Bacon Overflow',
+        price: '15',
         image:
-            'https://dl.airtable.com/.attachments/3efa7aa402d49c12b8769c581a96af42/d5b641e3/italy.jpeg',
+            'https://react-projects-5-menu.netlify.app/images/item-7.jpeg',
         text:
-            "Our Rome tour serves up Europe's most intoxicating brew of dazzling art, earth-shaking history, and city life with style. On this Rome vacation, your tour guide will resurrect the grandeur of ancient Rome's Colosseum, Forum, Pantheon, and nearby Ostia Antica. From the Renaissance and Baroque eras, you'll marvel at St. Peter's Basilica, the Vatican Museums, Sistine Chapel, and Borghese Gallery. You'll also enjoy today's Rome, with neighborhood walking tours, memorable restaurants, and time to explore on your own. Join us for the Best of Rome in 7 Days!",
+            "carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird",
     },
     {
         id: "5",
-        title: 'Best Of Poland In 10 Days Tour',
-        price: '2,595',
+        title: 'Quarantine Buddy',
+        price: '15',
         image:
-            'https://dl.airtable.com/.attachments/3feee7a93af0f4f809312132090c9a80/58e3e8ec/poland.jpeg',
+            'https://react-projects-5-menu.netlify.app/images/item-9.jpeg',
         text:
-            "Starting in the colorful port city of Gdańsk, you'll escape the crowds and embrace the understated elegance of ready-for-prime-time Poland for 10 days. With an expert Rick Steves guide at your side, you'll experience mighty Malbork castle, the cobbly-cute village of Toruń, Poland's contemporary capital of Warsaw, the spiritual Jasna Góra Monastery, and charming Kraków — Poland's finest city. In this land of surprises — so trendy and hip, yet steeped in history — there's so much to discover. Join us for the Best of Poland in 10 Days!",
+            "skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.",
+    },
+    {
+        id: "6",
+        title: 'Diner Double',
+        price: '15',
+        image:
+            'https://react-projects-5-menu.netlify.app/images/item-2.jpeg',
+        text:
+            "vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats",
+    },
+    {
+        id: "7",
+        title: 'Country Delight',
+        price: '15',
+        image:
+            'https://react-projects-5-menu.netlify.app/images/item-4.jpeg',
+        text:
+            "Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut,",
+    },
+    {
+        id: "8",
+        title: 'Oreo Dream',
+        price: '15',
+        image:
+            'https://react-projects-5-menu.netlify.app/images/item-6.jpeg',
+        text:
+            "Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday",
+    },
+    {
+        id: "9",
+        title: 'American Classic',
+        price: '15',
+        image:
+            'https://react-projects-5-menu.netlify.app/images/item-8.jpeg',
+        text:
+            "on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut",
     }
 
 ];

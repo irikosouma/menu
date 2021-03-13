@@ -10,7 +10,7 @@ line-height: 40px;
 position: relative;
 height: 50px;
 width: 700px;
-margin-bottom: 80px;
+margin-bottom: 60px;
     .line-border {
         position: absolute;
         top: 40%;
