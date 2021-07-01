@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 
 //components
 import Headers from './Header'
@@ -6,25 +6,27 @@ import MyDishes from './Content/index'
 
 //styles 
 import {WrapMenu} from './index.styles'
+import { useSelector, useDispatch } from 'react-redux'
 //data
-import menu from '../data/menu'
+// import menu from '../data/menu'
+import { getAllMenu, getBreakfast, getLunch, getShakes } from '../redux/action'
 export default function MenuComponent() {
-    const [listDishes, setListDishes] = useState(menu)
-    const [isRender, setIsRender] = useState(0);
+    const listMenu = useSelector(state => state.menuList.listMenu)
+    const dispatch = useDispatch()
+    useEffect(() => {
+        
+    }, [])
     const handleList = () => {
-        setListDishes(menu)
+        dispatch(getAllMenu())
     }
     const handleBreakfast = () => {
-        const newList = menu.filter((item) => item.text.includes('milkshake') || item.text.includes('coffee'))
-        setListDishes(newList)
+        dispatch(getBreakfast())
     }
     const handleLunch = () => {
-        const newList = menu.filter((item) => item.text.includes('squid') || item.text.includes('slow-carb') || item.text.includes('vegan'))
-        setListDishes(newList)
+        dispatch(getLunch())
     }
     const handleShakes = () => {
-        const newList = menu.filter((item) => item.title.includes('Milkshake') || item.title.includes('Oreo') || item.title.includes('Buddy'))
-        setListDishes(newList)
+        dispatch(getShakes())
     }
     return (
         <WrapMenu>
@@ -36,7 +38,7 @@ export default function MenuComponent() {
                 <button className="btn success" onClick={handleShakes}>Shakes</button>
             </div>
             <div className="list-dishes">
-                {listDishes.map((dish, index) => (
+                {listMenu.map((dish, index) => (
                     <MyDishes key={index} dish={dish} />
                 ))}
             </div>
