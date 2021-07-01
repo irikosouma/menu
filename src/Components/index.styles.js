@@ -157,7 +157,7 @@ const WrapMenu = styled.div`
     align-items: center;
     justify-content: center;
     .menu-btn {
-        width: 500px;
+        /* width: 500px; */
         display: flex;
         align-items: center;
         justify-content: center;
